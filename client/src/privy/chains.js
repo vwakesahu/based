@@ -1,26 +1,26 @@
 import { toast } from "sonner";
 
 export const neox = {
-  id: 12227332,
-  network: "NeoX",
-  name: "NeoX T4",
+  id: 84532,
+  network: "Base Sepolia",
+  name: "ETH",
   nativeCurrency: {
-    name: "GAS",
-    symbol: "GAS",
+    name: "ETH",
+    symbol: "ETH",
     decimals: 18,
   },
   rpcUrls: {
     default: {
-      http: ["https://neoxt4seed1.ngd.network/"],
+      http: ["https://sepolia.base.org"],
     },
     public: {
-      http: ["https://neoxt4seed1.ngd.network/"],
+      http: ["https://sepolia.base.org"],
     },
   },
   blockExplorers: {
     default: {
       name: "Explorer",
-      url: "https://xt4scan.ngd.network/",
+      url: "https://base-sepolia.blockscout.com",
     },
   },
 };
